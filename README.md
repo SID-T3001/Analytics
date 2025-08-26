@@ -19,46 +19,46 @@
 
   <li>Column Standardization: <br>We cleaned the column names by removing spaces and special characters, and converting them to a consistent format (e.g. order_date).</li>
 
-  <li>Data Type Conversion: We converted Order Date and Shipping_Date from string objects to datetime format to enable time-based calculations. We also ensured that all numerical columns were correctly formatted as float or integer types.</li></ul>
+  <li>Data Type Conversion: We converted Order Date and Shipping_Date from string objects to datetime format to enable time-based calculations. We also ensured that all numerical columns were correctly formatted as float or integer types.</li></ul></ul>
 
-<li>⭐Feature Engineering: New, insightful columns were created to enrich the analysis. Key metrics such as Delivery_Time_Days, Total_Order_Value, Order_Profit_Margin and Order_Status_Category were calculated to enable a deeper understanding of the business.</li>
+<ul><li>⭐Feature Engineering: <br>New, insightful columns were created to enrich the analysis. Key metrics such as Delivery_Time_Days, Total_Order_Value, Order_Profit_Margin and Order_Status_Category were calculated to enable a deeper understanding of the business.</li>
 
-  Delivery_Time_Days: Calculated the time taken for a product to be delivered by subtracting  the order date from the shipping date.
+  <ul><li>Delivery_Time_Days:<br> Calculated the time taken for a product to be delivered by subtracting  the order date from the shipping date.</li>
   
-  Total_Order_Value: Created a new column to represent the total value of each order item.
+  <li>Total_Order_Value: <br>Created a new column to represent the total value of each order item.</li>
  
-  Order_Profit_Margin: Calculated the profit margin as a percentage for each order to better understand profitability.
+ <li>Order_Profit_Margin: <br>Calculated the profit margin as a percentage for each order to better understand profitability.</li>
   
-  Order_Status_Category: Grouped the detailed order statuses into broader, more manageable categories (e.g., 'Completed', 'Canceled', 'On Hold') for easier analysis.
+  <li>Order_Status_Category: <br>Grouped the detailed order statuses into broader, more manageable categories (e.g., 'Completed', 'Canceled', 'On Hold') for easier analysis.</li></ul></ul>
 
-⭐Exploratory Data Analysis (EDA): A series of visualizations were created using Matplotlib and Seaborn to explore key performance indicators (KPIs) and uncover hidden patterns. This phase focused on financial analysis, product performance, logistics efficiency, and customer behavior.
+<ul><li>⭐Exploratory Data Analysis (EDA):<br> A series of visualizations were created using Matplotlib and Seaborn to explore key performance indicators (KPIs) and uncover hidden patterns. This phase focused on financial analysis, product performance, logistics efficiency, and customer behavior.</li>
 
-  Financial Analysis: We plotted monthly trends for revenue and profit, identified top-performing product categories, and visualized the relationship between profit and order value using a scatter plot.
+  <ul><li>Financial Analysis:<br> We plotted monthly trends for revenue and profit, identified top-performing product categories, and visualized the relationship between profit and order value using a scatter plot.</li>
 
-  Logistics Analysis: We created bar charts to analyze the average delivery time and late delivery risk across different shipping modes and regions.
+  <li>Logistics Analysis:<br> We created bar charts to analyze the average delivery time and late delivery risk across different shipping modes and regions.</li>
 
-  Customer & Market Analysis: We identified the top countries by number of orders and used a pie chart to visualize the distribution of order statuses.
+  <li>Customer & Market Analysis:<br> We identified the top countries by number of orders and used a pie chart to visualize the distribution of order statuses.</li></ul></ul>
 
-⭐Strategic Recommendations: Insights from the EDA were synthesized into a final report, providing clear, data-backed recommendations for executive-level decision-making.
+<ul><li>⭐Strategic Recommendations:<br> Insights from the EDA were synthesized into a final report, providing clear, data-backed recommendations for executive-level decision-making.</li></ul>
 
-📈 Key Findings & Recommendations
-The analysis revealed several critical insights for DataCo's leadership:
+<h3>📈 Key Findings & Recommendations</h3>
+<h4>The analysis revealed several critical insights for DataCo's leadership:</h4>
 
-🔍Financial Performance: 
-      The top-performing product categories and high-value orders were identified as the primary drivers of profitability, but significant variability in profit margins suggests a need for standardized pricing.
+<ul><li>🔍Financial Performance:<br>
+      The top-performing product categories and high-value orders were identified as the primary drivers of profitability, but significant variability in profit margins suggests a need for standardized pricing.</li>
 
-🔍Logistics & Delivery: 
-      A clear performance hierarchy was observed across different shipping modes, with notable geographical disparities in on-time delivery.
+<li>🔍Logistics & Delivery:<br>
+      A clear performance hierarchy was observed across different shipping modes, with notable geographical disparities in on-time delivery.</li>
 
-🔍Order Fulfillment: 
-  A significant portion of revenue is tied up in pending and on-hold orders, highlighting an opportunity to streamline the order-to-cash cycle.
+<li>🔍Order Fulfillment:<br>
+  A significant portion of revenue is tied up in pending and on-hold orders, highlighting an opportunity to streamline the order-to-cash cycle.</li></ul>
 
-💡Recommendations:
+<h3>💡Recommendations:</h3>
 
-Enhance Logistics: 
-  Investigate and resolve root causes of delays in high-risk regions to improve customer satisfaction and reduce late-delivery penalties.
+<ul><li>Enhance Logistics: <br>
+  Investigate and resolve root causes of delays in high-risk regions to improve customer satisfaction and reduce late-delivery penalties.</li>
 
-Focus on Profitability: 
-  Implement a dynamic pricing model and a cost-control framework to standardize profit margins across all orders.
+<li>Focus on Profitability:<br> 
+  Implement a dynamic pricing model and a cost-control framework to standardize profit margins across all orders.</li>
 
-Optimize Order Flow: Develop a robust process for managing pending orders to accelerate their conversion into completed sales and revenue.
+<li>Optimize Order Flow:<br> Develop a robust process for managing pending orders to accelerate their conversion into completed sales and revenue.</li></ul>
