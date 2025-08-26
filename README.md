@@ -1,28 +1,27 @@
-📦 DataCo Supply Chain Analysis
-Overview
-This project presents a comprehensive data analysis of the DataCo company's supply chain operations. Using transactional data, the analysis aims to identify key performance metrics, uncover operational bottlenecks, and provide actionable insights to enhance logistics efficiency, optimize profitability, and inform strategic decision-making.
+<h1>📦 DataCo Supply Chain Analysis</h1>
+<h2>Overview </h2>
+<h4>This project presents a comprehensive data analysis of the DataCo company's supply chain operations. Using transactional data, the analysis aims to identify key performance metrics, uncover operational bottlenecks, and provide actionable insights to enhance logistics efficiency, optimize profitability, and inform strategic decision-making.</h4>
 
-🚀 Project Highlights
-Data-Driven Insights: Delivered a series of high-impact visualizations and findings on profitability, delivery performance, and market trends.
+<h3>🚀 Project Highlights</h3>
+<ul><li>Data-Driven Insights:<br>Delivered a series of high-impact visualizations and findings on profitability, delivery performance, and market trends.</li>
 
-Operational Bottleneck Identification: Pinpointed significant geographical disparities in delivery times and identified an operational bottleneck in the "Standard Class" shipping mode.
+<li>Operational Bottleneck Identification:<br> Pinpointed significant geographical disparities in delivery times and identified an operational bottleneck in the "Standard Class" shipping mode.</li>
 
-Potential Revenue Loss: Quantified over $10,989,166 in potential revenue loss from cancelled and On-hold orders, providing a clear business case for strategic intervention.
+<li>Potential Revenue Loss:<br> Quantified over $10,989,166 in potential revenue loss from cancelled and On-hold orders, providing a clear business case for strategic intervention.</li>
 
-End-to-End Analysis: Demonstrated a complete data analysis workflow from raw, messy data to final, strategic recommendations.
+<li>End-to-End Analysis: <br>Demonstrated a complete data analysis workflow from raw, messy data to final, strategic recommendations.</li></ul>
 
-⚙️ Methodology
-The analysis was conducted in Python and followed a structured, multi-phase approach:
+<h3>⚙️ Methodology</h3>
+    <h4>The analysis was conducted in Python and followed a structured, multi-phase approach:</h4>
 
-⭐Data Acquisition & Cleaning: The raw DataCoSupplyChainDataset was loaded and meticulously     cleaned. This involved handling missing values, standardizing column names, and converting    data types to ensure data integrity.
+<ul><li>Data Acquisition & Cleaning:<br>The raw DataCoSupplyChainDataset was loaded and meticulously     cleaned. This involved handling missing values, standardizing column names, and converting    data types to ensure data integrity.</li>
+  <ul><li>Initial Inspection:<br> We first used df.info() and df.head() to understand the data's  structure, identify data types, and spot missing values and inconsistencies.</li>
 
-  Initial Inspection: We first used df.info() and df.head() to understand the data's  structure, identify data types, and spot missing values and inconsistencies.
+  <li>Column Standardization: <br>We cleaned the column names by removing spaces and special characters, and converting them to a consistent format (e.g. order_date).</li>
 
-  Column Standardization: We cleaned the column names by removing spaces and special characters, and converting them to a consistent format (e.g. order_date).
+  <li>Data Type Conversion: We converted Order Date and Shipping_Date from string objects to datetime format to enable time-based calculations. We also ensured that all numerical columns were correctly formatted as float or integer types.</li></ul>
 
-  Data Type Conversion: We converted Order Date and Shipping_Date from string objects to datetime format to enable time-based calculations. We also ensured that all numerical columns were correctly formatted as                          float or integer types.
-
-⭐Feature Engineering: New, insightful columns were created to enrich the analysis. Key metrics such as Delivery_Time_Days, Total_Order_Value, Order_Profit_Margin and Order_Status_Category were calculated to enable a deeper understanding of the business.
+<li>⭐Feature Engineering: New, insightful columns were created to enrich the analysis. Key metrics such as Delivery_Time_Days, Total_Order_Value, Order_Profit_Margin and Order_Status_Category were calculated to enable a deeper understanding of the business.</li>
 
   Delivery_Time_Days: Calculated the time taken for a product to be delivered by subtracting  the order date from the shipping date.
   
