@@ -21,7 +21,7 @@
 
   <li>Data Type Conversion: We converted Order Date and Shipping_Date from string objects to datetime format to enable time-based calculations. We also ensured that all numerical columns were correctly formatted as float or integer types.</li></ul></ul>
 
-<ul><li>⭐Feature Engineering: <br>New, insightful columns were created to enrich the analysis. Key metrics such as Delivery_Time_Days, Total_Order_Value, Order_Profit_Margin and Order_Status_Category were calculated to enable a deeper understanding of the business.</li>
+<ul><li>Feature Engineering: <br>New, insightful columns were created to enrich the analysis. Key metrics such as Delivery_Time_Days, Total_Order_Value, Order_Profit_Margin and Order_Status_Category were calculated to enable a deeper understanding of the business.</li>
 
   <ul><li>Delivery_Time_Days:<br> Calculated the time taken for a product to be delivered by subtracting  the order date from the shipping date.</li>
   
@@ -31,7 +31,7 @@
   
   <li>Order_Status_Category: <br>Grouped the detailed order statuses into broader, more manageable categories (e.g., 'Completed', 'Canceled', 'On Hold') for easier analysis.</li></ul></ul>
 
-<ul><li>⭐Exploratory Data Analysis (EDA):<br> A series of visualizations were created using Matplotlib and Seaborn to explore key performance indicators (KPIs) and uncover hidden patterns. This phase focused on financial analysis, product performance, logistics efficiency, and customer behavior.</li>
+<ul><li>Exploratory Data Analysis (EDA):<br> A series of visualizations were created using Matplotlib and Seaborn to explore key performance indicators (KPIs) and uncover hidden patterns. This phase focused on financial analysis, product performance, logistics efficiency, and customer behavior.</li>
 
   <ul><li>Financial Analysis:<br> We plotted monthly trends for revenue and profit, identified top-performing product categories, and visualized the relationship between profit and order value using a scatter plot.</li>
 
@@ -44,13 +44,13 @@
 <h3>📈 Key Findings & Recommendations</h3>
 <h4>The analysis revealed several critical insights for DataCo's leadership:</h4>
 
-<ul><li>🔍Financial Performance:<br>
+<ul><li>Financial Performance:<br>
       The top-performing product categories and high-value orders were identified as the primary drivers of profitability, but significant variability in profit margins suggests a need for standardized pricing.</li>
 
-<li>🔍Logistics & Delivery:<br>
+<li>Logistics & Delivery:<br>
       A clear performance hierarchy was observed across different shipping modes, with notable geographical disparities in on-time delivery.</li>
 
-<li>🔍Order Fulfillment:<br>
+<li>Order Fulfillment:<br>
   A significant portion of revenue is tied up in pending and on-hold orders, highlighting an opportunity to streamline the order-to-cash cycle.</li></ul>
 
 <h3>💡Recommendations:</h3>
