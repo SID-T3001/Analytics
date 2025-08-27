@@ -39,7 +39,7 @@
 
   <li>Customer & Market Analysis:<br> We identified the top countries by number of orders and used a pie chart to visualize the distribution of order statuses.</li></ul></ul>
 
-<ul><li>⭐Strategic Recommendations:<br> Insights from the EDA were synthesized into a final report, providing clear, data-backed recommendations for executive-level decision-making.</li></ul>
+<ul><li>Strategic Recommendations:<br> Insights from the EDA were synthesized into a final report, providing clear, data-backed recommendations for executive-level decision-making.</li></ul>
 
 <h3>📈 Key Findings & Recommendations</h3>
 <h4>The analysis revealed several critical insights for DataCo's leadership:</h4>
